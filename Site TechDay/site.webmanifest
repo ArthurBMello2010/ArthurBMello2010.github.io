@@ -1,0 +1,18 @@
+{
+  "name": "Dopamina: atenção na era digital",
+  "short_name": "Dopamina",
+  "description": "Conteúdo educativo sobre hábitos digitais e atenção.",
+  "lang": "pt-BR",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#090b12",
+  "theme_color": "#090b12",
+  "icons": [
+    {
+      "src": "assets/icons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

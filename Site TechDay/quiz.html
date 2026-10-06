@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#090b12" />
+    <meta name="description" content="Faça um autoexame educativo sobre seus hábitos digitais e receba sugestões práticas para usar a tecnologia com mais intenção." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:title" content="Autoexame digital | Dopamina" />
+    <meta property="og:description" content="Reflita sobre sua relação com o celular com este quiz educativo e privado." />
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="stylesheet" href="assets/css/site.css" />
+    <script src="assets/js/quiz.js" defer></script>
+    <title>Autoexame digital | Dopamina</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o quiz</a>
+    <header class="topbar quiz-topbar">
+      <div class="container nav">
+        <a href="index.html" class="brand" aria-label="Dopamina: voltar ao site principal">
+          <span class="brand-badge" aria-hidden="true"></span>
+          <span>DOPAMINA</span>
+        </a>
+        <a class="cta secondary" href="index.html">Voltar ao site</a>
+      </div>
+    </header>
+
+    <main class="quiz-page" id="conteudo">
+      <div class="container quiz-container">
+        <header class="quiz-page-header">
+          <span class="eyebrow">quiz de autoconsciência</span>
+          <h1>Como está sua relação com o <span class="gradient-text">celular?</span></h1>
+          <p>Responda pensando nas últimas duas semanas. Não existem respostas certas ou erradas. Ao final, você recebe uma leitura dos hábitos que relatou e algumas ideias práticas.</p>
+        </header>
+
+        <div class="quiz-notice"><strong>Importante:</strong> este autoexame é educativo e não mede “o quanto você é viciado”. Não é um teste clínico nem substitui avaliação profissional. Cada resposta vale de 0 a 4 pontos, e a soma serve apenas como ponto de partida para refletir sobre seus hábitos.</div>
+
+        <form class="quiz-form" id="self-check-quiz">
+          <p class="quiz-progress" id="quiz-progress" aria-live="polite">0 de 15 perguntas respondidas</p>
+          <fieldset class="quiz-question">
+            <legend><span class="question-number">01</span> Abro redes sociais ou vídeos sem perceber por que peguei o celular.</legend>
+            <div class="quiz-options">
+              <label class="quiz-option"><input type="radio" name="q1" value="0" required><span>Nunca</span></label>
+              <label class="quiz-option"><input type="radio" name="q1" value="1"><span>Raramente</span></label>
+              <label class="quiz-option"><input type="radio" name="q1" value="2"><span>Às vezes</span></label>
+              <label class="quiz-option"><input type="radio" name="q1" value="3"><span>Frequentemente</span></label>
+              <label class="quiz-option"><input type="radio" name="q1" value="4"><span>Quase sempre</span></label>
+            </div>
+          </fieldset>
+          <fieldset class="quiz-question">
+            <legend><span class="question-number">02</span> Continuo rolando a tela por mais tempo do que pretendia.</legend>
+            <div class="quiz-options">
+              <label class="quiz-option"><input type="radio" name="q2" value="0" required><span>Nunca</span></label>
+              <label class="quiz-option"><input type="radio" name="q2" value="1"><span>Raramente</span></label>
+              <label class="quiz-option"><input type="radio" name="q2" value="2"><span>Às vezes</span></label>
+              <label class="quiz-option"><input type="radio" name="q2" value="3"><span>Frequentemente</span></label>
+              <label class="quiz-option"><input type="radio" name="q2" value="4"><span>Quase sempre</span></label>
+            </div>
+          </fieldset>
+          <fieldset class="quiz-question">
+            <legend><span class="question-number">03</span> Checo notificações enquanto estudo, trabalho ou converso com alguém.</legend>
+            <div class="quiz-options">
+              <label class="quiz-option"><input type="radio" name="q3" value="0" required><span>Nunca</span></label>
+              <label class="quiz-option"><input type="radio" name="q3" value="1"><span>Raramente</span></label>
+              <label class="quiz-option"><input type="radio" name="q3" value="2"><span>Às vezes</span></label>
+              <label class="quiz-option"><input type="radio" name="q3" value="3"><span>Frequentemente</span></label>
+              <label class="quiz-option"><input type="radio" name="q3" value="4"><span>Quase sempre</span></label>
+            </div>
+          </fieldset>
+          <fieldset class="quiz-question">
+            <legend><span class="question-number">04</span> Quando fico sem acesso ao celular, sinto inquietação ou tédio.</legend>
+            <div class="quiz-options">
+              <label class="quiz-option"><input type="radio" name="q4" value="0" required><span>Nunca</span></label>
+              <label class="quiz-option"><input type="radio" name="q4" value="1"><span>Raramente</span></label>
+              <label class="quiz-option"><input type="radio" name="q4" value="2"><span>Às vezes</span></label>
+              <label class="quiz-option"><input type="radio" name="q4" value="3"><span>Frequentemente</span></label>
+              <label class="quiz-option"><input type="radio" name="q4" value="4"><span>Quase sempre</span></label>
+            </div>
+          </fieldset>
+          <fieldset class="quiz-question">
+            <legend><span class="question-number">05</span> Uso o celular quando gostaria de estar dormindo ou descansando.</legend>
+            <div class="quiz-options">
+              <label class="quiz-option"><input type="radio" name="q5" value="0" required><span>Nunca</span></label>
+              <label class="quiz-option"><input type="radio" name="q5" value="1"><span>Raramente</span></label>
+              <label class="quiz-option"><input type="radio" name="q5" value="2"><span>Às vezes</span></label>
+              <label class="quiz-option"><input type="radio" name="q5" value="3"><span>Frequentemente</span></label>
+              <label class="quiz-option"><input type="radio" name="q5" value="4"><span>Quase sempre</span></label>
+            </div>
+          </fieldset>
+          <fieldset class="quiz-question">
+            <legend><span class="question-number">06</span> O tempo on-line atrapalha tarefas, compromissos ou momentos importantes para mim.</legend>
+            <div class="quiz-options">
+              <label class="quiz-option"><input type="radio" name="q6" value="0" required><span>Nunca</span></label>
+              <label class="quiz-option"><input type="radio" name="q6" value="1"><span>Raramente</span></label>
+              <label class="quiz-option"><input type="radio" name="q6" value="2"><span>Às vezes</span></label>
+              <label class="quiz-option"><input type="radio" name="q6" value="3"><span>Frequentemente</span></label>
+              <label class="quiz-option"><input type="radio" name="q6" value="4"><span>Quase sempre</span></label>
+            </div>
+          </fieldset>
+          <fieldset class="quiz-question">
+            <legend><span class="question-number">07</span> Tento reduzir o uso, mas acabo voltando ao mesmo padrão.</legend>
+            <div class="quiz-options">
+              <label class="quiz-option"><input type="radio" name="q7" value="0" required><span>Nunca</span></label>
+              <label class="quiz-option"><input type="radio" name="q7" value="1"><span>Raramente</span></label>
+              <label class="quiz-option"><input type="radio" name="q7" value="2"><span>Às vezes</span></label>
+              <label class="quiz-option"><input type="radio" name="q7" value="3"><span>Frequentemente</span></label>
+              <label class="quiz-option"><input type="radio" name="q7" value="4"><span>Quase sempre</span></label>
+            </div>
+          </fieldset>
+          <fieldset class="quiz-question">
+            <legend><span class="question-number">08</span> Sinto vontade de checar o celular logo ao acordar ou antes de dormir.</legend>
+            <div class="quiz-options">
+              <label class="quiz-option"><input type="radio" name="q8" value="0" required><span>Nunca</span></label>
+              <label class="quiz-option"><input type="radio" name="q8" value="1"><span>Raramente</span></label>
+              <label class="quiz-option"><input type="radio" name="q8" value="2"><span>Às vezes</span></label>
+              <label class="quiz-option"><input type="radio" name="q8" value="3"><span>Frequentemente</span></label>
+              <label class="quiz-option"><input type="radio" name="q8" value="4"><span>Quase sempre</span></label>
+            </div>
+          </fieldset>
+          <fieldset class="quiz-question">
+            <legend><span class="question-number">09</span> Tenho dificuldade para começar uma tarefa sem primeiro abrir redes sociais, mensagens ou vídeos.</legend>
+            <div class="quiz-options">
+              <label class="quiz-option"><input type="radio" name="q9" value="0" required><span>Nunca</span></label>
+              <label class="quiz-option"><input type="radio" name="q9" value="1"><span>Raramente</span></label>
+              <label class="quiz-option"><input type="radio" name="q9" value="2"><span>Às vezes</span></label>
+              <label class="quiz-option"><input type="radio" name="q9" value="3"><span>Frequentemente</span></label>
+              <label class="quiz-option"><input type="radio" name="q9" value="4"><span>Quase sempre</span></label>
+            </div>
+          </fieldset>
+          <fieldset class="quiz-question">
+            <legend><span class="question-number">10</span> Quando me sinto entediado(a), cansado(a) ou ansioso(a), recorro ao celular como primeiro recurso.</legend>
+            <div class="quiz-options">
+              <label class="quiz-option"><input type="radio" name="q10" value="0" required><span>Nunca</span></label>
+              <label class="quiz-option"><input type="radio" name="q10" value="1"><span>Raramente</span></label>
+              <label class="quiz-option"><input type="radio" name="q10" value="2"><span>Às vezes</span></label>
+              <label class="quiz-option"><input type="radio" name="q10" value="3"><span>Frequentemente</span></label>
+              <label class="quiz-option"><input type="radio" name="q10" value="4"><span>Quase sempre</span></label>
+            </div>
+          </fieldset>
+          <fieldset class="quiz-question">
+            <legend><span class="question-number">11</span> Mesmo sem necessidade, abro apps para ver só uma coisa e acabo ficando mais tempo.</legend>
+            <div class="quiz-options">
+              <label class="quiz-option"><input type="radio" name="q11" value="0" required><span>Nunca</span></label>
+              <label class="quiz-option"><input type="radio" name="q11" value="1"><span>Raramente</span></label>
+              <label class="quiz-option"><input type="radio" name="q11" value="2"><span>Às vezes</span></label>
+              <label class="quiz-option"><input type="radio" name="q11" value="3"><span>Frequentemente</span></label>
+              <label class="quiz-option"><input type="radio" name="q11" value="4"><span>Quase sempre</span></label>
+            </div>
+          </fieldset>
+          <fieldset class="quiz-question">
+            <legend><span class="question-number">12</span> Sinto que perco tempo em conteúdos que não me ajudam e, mesmo assim, continuo.</legend>
+            <div class="quiz-options">
+              <label class="quiz-option"><input type="radio" name="q12" value="0" required><span>Nunca</span></label>
+              <label class="quiz-option"><input type="radio" name="q12" value="1"><span>Raramente</span></label>
+              <label class="quiz-option"><input type="radio" name="q12" value="2"><span>Às vezes</span></label>
+              <label class="quiz-option"><input type="radio" name="q12" value="3"><span>Frequentemente</span></label>
+              <label class="quiz-option"><input type="radio" name="q12" value="4"><span>Quase sempre</span></label>
+            </div>
+          </fieldset>
+          <fieldset class="quiz-question">
+            <legend><span class="question-number">13</span> Em refeições, conversas ou momentos de descanso, o celular me chama mais atenção do que eu quero.</legend>
+            <div class="quiz-options">
+              <label class="quiz-option"><input type="radio" name="q13" value="0" required><span>Nunca</span></label>
+              <label class="quiz-option"><input type="radio" name="q13" value="1"><span>Raramente</span></label>
+              <label class="quiz-option"><input type="radio" name="q13" value="2"><span>Às vezes</span></label>
+              <label class="quiz-option"><input type="radio" name="q13" value="3"><span>Frequentemente</span></label>
+              <label class="quiz-option"><input type="radio" name="q13" value="4"><span>Quase sempre</span></label>
+            </div>
+          </fieldset>
+          <fieldset class="quiz-question">
+            <legend><span class="question-number">14</span> Tento responder notificações ou mensagens imediatamente, mesmo quando estou em outra atividade.</legend>
+            <div class="quiz-options">
+              <label class="quiz-option"><input type="radio" name="q14" value="0" required><span>Nunca</span></label>
+              <label class="quiz-option"><input type="radio" name="q14" value="1"><span>Raramente</span></label>
+              <label class="quiz-option"><input type="radio" name="q14" value="2"><span>Às vezes</span></label>
+              <label class="quiz-option"><input type="radio" name="q14" value="3"><span>Frequentemente</span></label>
+              <label class="quiz-option"><input type="radio" name="q14" value="4"><span>Quase sempre</span></label>
+            </div>
+          </fieldset>
+          <fieldset class="quiz-question">
+            <legend><span class="question-number">15</span> Quando me afasto do celular, fico pensando nele ou sinto que estou perdendo algo.</legend>
+            <div class="quiz-options">
+              <label class="quiz-option"><input type="radio" name="q15" value="0" required><span>Nunca</span></label>
+              <label class="quiz-option"><input type="radio" name="q15" value="1"><span>Raramente</span></label>
+              <label class="quiz-option"><input type="radio" name="q15" value="2"><span>Às vezes</span></label>
+              <label class="quiz-option"><input type="radio" name="q15" value="3"><span>Frequentemente</span></label>
+              <label class="quiz-option"><input type="radio" name="q15" value="4"><span>Quase sempre</span></label>
+            </div>
+          </fieldset>
+          <button class="cta primary quiz-submit" type="submit">Ver meu resultado</button>
+          <p class="quiz-privacy">O resultado é calculado nesta página. Suas respostas não são enviadas a um servidor.</p>
+        </form>
+
+        <section class="quiz-result" id="quiz-result" aria-labelledby="quiz-result-title" aria-live="polite" hidden>
+          <p class="result-score" id="quiz-result-score"></p>
+          <h2 id="quiz-result-title" tabindex="-1"></h2>
+          <p id="quiz-result-description"></p>
+          <h3>Primeiros passos que podem ajudar</h3>
+          <ul class="result-tips" id="quiz-result-tips"></ul>
+          <p class="result-disclaimer">Esta leitura serve apenas para reflexão. Se o uso estiver causando sofrimento ou prejuízo persistente, converse com alguém de confiança ou procure um profissional de saúde.</p>
+          <button class="cta secondary" id="quiz-reset" type="button">Refazer o autoexame</button>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-main">
+          <div class="footer-about">
+            <a href="index.html" class="brand"><span class="brand-badge" aria-hidden="true"></span><span>DOPAMINA</span></a>
+            <p>Autoexame educativo. Suas respostas são calculadas neste navegador.</p>
+          </div>
+          <nav class="footer-links" aria-label="Links do rodapé">
+            <a href="index.html">Voltar ao conteúdo completo</a>
+            <a href="privacy.html">Privacidade</a>
+          </nav>
+        </div>
+        <div class="footer-bottom">
+          <span>© <span id="current-year">2026</span> Dopamina.</span>
+          <p>Este resultado não é um diagnóstico.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
